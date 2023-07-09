@@ -1,0 +1,1168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.h2style{
+
+  /* margin-top: 5px; */
+  color: white;
+  display: none;
+}
+#hrStyling {
+  width: 1068px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color: white;
+}
+.onlyForMobile{
+  display: none;
+}
+.posts{
+  /* border: 2px solid red; */
+  width: 400px;
+  display: flex;
+  margin: 20px 0px;
+  /* display: none;  */
+}
+.asideContent{
+  /* border: 2px solid red; */
+  width: 320px;
+}
+@media only screen and (max-width: 480px) {
+  .asideContent{
+    width: 80vw;
+  }
+  .cardContent{
+    /* border: 2px solid red; */
+    width: 100vw;
+  }
+  .container{
+    width: 100vw;
+  }
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 100vw !important;
+    /* height: 500px; */
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .errorContainer {
+    /* border: 2px solid red; */
+    height: 73vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .errorContainer img{
+    width: 100vw;
+  }
+  .popularPosts{
+    /* border: 2px solid red; */
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+  }
+  .popularPost{
+    /* border: 2px solid red; */
+    width: 80vw !important;
+    /* display: flex; */
+    flex-wrap: wrap 
+  }
+  .posts{
+    /* border: 2px solid red; */
+    width: 90vw;
+    display: flex;
+    margin: 20px 0px;
+    /* display: none;  */
+  }
+  .h2style{
+
+    /* margin-top: 5px; */
+    /* color: white; */
+    display: block;
+  }
+  .searchdiv button{
+    /* border: 2px solid red; */
+    width: 10vw;
+    border: none;
+  }
+  .loginInfo{
+    /* border: 2px solid green; */
+    width: 95vw;
+  }
+  .loginContainer h1 {
+    color: black;
+    font-size: 50px;
+    margin: 0 !important; 
+  }
+  
+  .loginContainer img {
+    display: none;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .loginContent {
+    /* border: 2px solid green; */
+    display: flex;
+    /* flex-direction: column; */
+  }
+  
+  .loginContent form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginContent form input {
+    width: 90vw !important;
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+  }
+  .signupContainer{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+  .signupC{
+    width: 90vw;
+    /* border: 2px solid green; */
+  }
+  .signupC h1 {
+    margin-left: 0 !important;
+  }
+  
+  .signupContent {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
+  .signupContent form {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    width: 80vw;
+  }
+  .signupContainer form input,select {
+    width: 80vw !important;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    /* background-color: black; */
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    /* border: 2px solid green !important; */
+  }  
+  
+  .signupContent img {
+    display: none;
+  }
+  
+  .cardCat {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 100vw !important;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* margin-bottom: 50px 0px; */
+  }
+  .cardC {
+    /* border: 2px solid red; */
+    width: 80vw !important;
+  }
+  
+  .searchContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchdiv {
+    margin-top: 15px;
+    width: 50vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: green; */
+  }
+  .searchdiv input {
+    /* background-color: white; */
+    border: none;
+    outline: none;
+    /* border-bottom: 1px solid white; */
+    color: white;
+    margin-top: 10px;
+    width: 20vw;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .searchClass{
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 80vw;
+    /* border: 2px solid red; */
+  }
+  .onlyForMobile{
+    display: block;
+    color: white;
+  }
+  #hrStyling {
+    width: 98vw;
+  }
+
+  header {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+  .headerimg {
+    display: none !important;
+  }
+  .h1style{
+    display: none;
+  }
+  nav {
+    display: flex;
+    width: 99vw;
+  }
+  .newimgsearch{
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-around;
+  }
+  .aboutclass{
+    display: none;
+  }
+  .contactClass{
+    display: none;
+  }
+}
+
+header {
+  background-color: black;
+  height: 150px;
+}
+.h1style{
+  margin-right: 100px;
+}
+.headerimg {
+  margin-left: 212px;
+}
+
+.imghsearch {
+  /* width:50%; */
+  margin: auto;
+  /* border: 2px solid red; */
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.imghsearch h1 {
+  margin-left: 240px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.headerimg {
+  display: flex;
+  margin-top: 10px;
+  /* border: 2px solid red; */
+}
+
+.headerimg img {
+  padding: 0px 5px;
+}
+
+.imghsearch img {
+  height: 25px;
+  width: 25px;
+  filter: invert(100%);
+}
+
+.searchdiv {
+  position: absolute;
+  top: 0;
+  right: 4px;
+}
+
+.searchdiv input {
+  background-color: black;
+  border: none;
+  outline: none;
+  /* border-bottom: 1px solid white; */
+  color: white;
+  margin-top: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.searchdiv button img {
+  filter: invert(100%);
+  height: 30px;
+  width: 30px;
+  margin-right: 220px;
+  /* margin-left: 5px; */
+  margin-top: 20px;
+}
+
+nav ul {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  margin-top: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.homeSection {
+  display: flex;
+}
+
+.topImgContainer {
+  /* display: flex; */
+  /* border: 2px solid red; */
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+}
+
+.topImgContainer img {
+  height: 560px;
+  width: 700px;
+}
+
+.rightImgContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightImgContent img {
+  width: 370px;
+  height: 280px;
+}
+
+.topContainerContent h3,
+h1 {
+  color: white;
+}
+
+.logonamedate {
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-right: -100px; */
+}
+
+.centered {
+  position: absolute;
+  top: 76%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.topImgContainer img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  /* box-sizing: inherit; */
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  width: 90%;
+  /* height: 500px; */
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.cardContent {
+  width: 350px;
+  margin: 40px 0px;
+  /* border: 2px solid black; */
+  /* padding: 10px; */
+  box-shadow: 2px 2px 5px gainsboro;
+  background-color: white;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+  /* opacity: 0.7; */
+}
+
+.cardContainer img:hover {
+  opacity: 0.7;
+}
+
+.errorContainer {
+  /* border: 2px solid red; */
+  height: 73vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.aboutContainer h1 {
+  color: black;
+  font-size: 50px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.aboutContainer img {
+  width: 905px;
+  height: 470px;
+  margin: 50px 0px;
+}
+
+.descContainer {
+  display: flex;
+  /* flex-direction: column; */
+  width: 905px;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  line-height: 30px;
+}
+
+.ourDesc {
+  padding: 0px;
+  display: flex;
+  /* width: 900px; */
+  flex-wrap: wrap;
+  margin: 50px 0px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.descCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.descCard h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contactContainer {
+  /* background-color: whitesmoke; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  /* border: 2px solid red; */
+  line-height: 30px;
+
+}
+
+.contactContainer h1 {
+  color: black;
+}
+
+.contactInfo {
+  display: flex;
+  /* flex-direction: column; */
+  /* border: 2px solid red; */
+  width: 905px;
+  justify-content: space-between;
+}
+
+.addressInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.addressInfo h2 {
+  margin: 10px 0px;
+}
+
+.contactContainer form {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  width: 905px;
+}
+
+.contactContainer form input,
+textarea {
+  background-color: whitesmoke;
+  border: none;
+  margin: 20px 0px;
+  border-bottom: 2px solid gray;
+  /* padding-top: 10px; */
+  padding: 20px 0px;
+  outline: none;
+  font-size: 18px;
+}
+
+.contactContainer form button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contactContainer h1 {
+  margin-top: 50px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  /* background-color: #04AA6D; */
+  /* color: white; */
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* background-color: black; */
+  /* color: gray; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+.categoryCard {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.categoryCard h1 {
+  color: black;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.cardCat {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* margin-bottom: 50px 0px; */
+}
+
+.cardC {
+  cursor: pointer;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  /* border: 2px solid black; */
+  box-shadow: 1px 1px 5px grey;
+}
+
+.cardC:hover h1 {
+  text-decoration: underline;
+}
+
+.cardC img {
+  height: 250px;
+}
+
+.cardC img:hover {
+  opacity: 0.7;
+}
+
+.cardCDesc {
+  padding: 20px;
+  background-color: white;
+}
+
+footer {
+  /* border: 2px solid red; */
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100vw;
+  /* border: 2px solid red; */
+}
+
+.sportsCard {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+.sportsCard h1 {
+  color: black;
+}
+
+.sportsContent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content: space-between;
+}
+
+.sportsC {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 1px 1px 5px grey;
+  margin: 50px 0px;
+}
+
+.sportsC img {
+  height: 250px;
+}
+
+.cardSDesc {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+}
+
+.blogContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.blogContent {
+  display: flex;
+  width: 1450px;
+  /* border: 2px solid red; */
+}
+
+.blogContent img {
+  height: 500px;
+  width: 700px;
+  /* border-radius: 10px; */
+}
+
+.blogC {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 500px;
+  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 70px;
+}
+
+.blogC h2 {
+  /* color: black; */
+  color: white;
+}
+
+.blogC h1 {
+  font-size: 70px;
+}
+
+.blogC button {
+  padding: 15px;
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  /* border: 2px solid red; */
+}
+
+.signupContainer h1 {
+  color: black;
+  font-size: 50px;
+}
+
+.signupContent {
+  display: flex;
+  justify-content: center;
+}
+
+.signupContent img {
+  width: 500px;
+  height: 620px;
+  margin-right: 20px;
+}
+
+.signupContent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupContainer form input {
+  width: 500px;
+  padding: 10px 0px;
+  margin: 20px 0px;
+  /* background-color: black; */
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+  font-size: 20px;
+  color: black;
+}
+
+.signupContainer form button {
+  cursor: pointer;
+  padding: 10px;
+  outline: none;
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.signupContent select {
+  /* background-color: black; */
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid gray;
+  color: gray;
+  outline: none;
+  font-size: 20px;
+}
+
+.signupC {
+  /* border: 2px solid rebeccapurple; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px gray;
+  padding: 35px;
+}
+
+.signupC h1 {
+  margin-left: 490px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  background-color: whitesmoke;
+}
+
+.loginContainer h1 {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.loginContainer img {
+  height: 200px;
+  width: 200px;
+}
+
+.loginContent {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.loginContent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContent form input {
+  width: 500px;
+  padding: 10px;
+  margin: 10px 0px;
+  color: white;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+
+.loginContent form button {
+  margin: 20px 0px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  /* background-color: whitesmoke; */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.loginInfo {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 400px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.modal {
+  background-color: black;
+  padding: 20px;
+}
+
+.headermodal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headermodal input,
+select {
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 10px 0px;
+}
+
+.headermodalbtns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headermodalbtns button {
+  background-color: burlywood;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  width: 210px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#blogSubmitBtn {
+  padding: 10px;
+  margin-left: 675px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.blogInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogInfo input {
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blogInfo select {
+  width: 520px;
+  background-color: whitesmoke;
+}
+
+#allContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogContentContainer {
+  padding: 10px 50px;
+}
+
+.deleteModifyBtn {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.deleteModifyBtn button {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.asideAbout {
+  /* border: 2px solid red; */
+  margin-left: -10px;
+  padding: 0;
+}
+
+.asideAbout img {
+  margin: 0px 4px;
+}
+
+.lcsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.lcsContent {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  /* border: 2px solid red; */
+  /* margin: auto; */
+}
+
+.lcsContent img {
+  height: 30px;
+  width: 30px;
+}
+
+.likeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 55px;
+}
+
+.commentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+}
+
+.shareContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 58px;
+}
+
+.lcsCommentContainer {
+  display: flex;
+  margin: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 720px;
+}
+
+.lcsCommentContainer input {
+  width: 600px;
+  padding: 7px;
+  margin-left: 5px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid black;
+}
+
+.lcsCommentContainer img {
+  width: 30px;
+  height: 30px;
+}
+
+.lcsCommentContainer button {
+  padding: 9px 10px;
+  background-color: brown;
+  border: none;
+  margin-left: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.commentCard {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 720px;
+}
+
+.commentCardContent {
+  background-color: #edeaea;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.likeReply {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.likeReply p {
+  font-weight: bold;
+  color: gray;
+  font-size: 12px;
+  margin-left: 5px;
+  /* margin-top: 2px; */
+  cursor: pointer;
+}
+
+.commentReplyContainer {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 20px 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.commentCardReply {
+  background-color: #edeaea;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.commentCardReply p {
+  margin-left: 0px;
+  color: black;
+  font-weight: 490;
+  font-size: 14px;
+}
