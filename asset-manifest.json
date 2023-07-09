@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/paathshala-Shiva-Raj/static/css/main.40be57e8.css",
+    "main.js": "/paathshala-Shiva-Raj/static/js/main.5bb8a9ee.js",
+    "static/js/787.e7e5b0e0.chunk.js": "/paathshala-Shiva-Raj/static/js/787.e7e5b0e0.chunk.js",
+    "static/media/login.png": "/paathshala-Shiva-Raj/static/media/login.6604b8f3088f73a5fe43.png",
+    "static/media/errorimg.png": "/paathshala-Shiva-Raj/static/media/errorimg.4ab677c80a6451c6e13d.png",
+    "static/media/createblogimg.jpg": "/paathshala-Shiva-Raj/static/media/createblogimg.ff88a007b6dd276c6b11.jpg",
+    "static/media/sportsimg.jpg": "/paathshala-Shiva-Raj/static/media/sportsimg.18280e500a58d238584c.jpg",
+    "static/media/historicalimg.jpg": "/paathshala-Shiva-Raj/static/media/historicalimg.ac9d35c81c58b8ea6ff8.jpg",
+    "static/media/car.jpg": "/paathshala-Shiva-Raj/static/media/car.4fdea5595c5ad3da4ce1.jpg",
+    "static/media/blogimg.jpg": "/paathshala-Shiva-Raj/static/media/blogimg.85337b76735dd6470a8f.jpg",
+    "static/media/politicsimg.jpg": "/paathshala-Shiva-Raj/static/media/politicsimg.5ecba8d61c1a41788fe7.jpg",
+    "static/media/musicimg.jpg": "/paathshala-Shiva-Raj/static/media/musicimg.4384e483fd4f81c59406.jpg",
+    "static/media/signup.png": "/paathshala-Shiva-Raj/static/media/signup.1998e814e05e929392e7.png",
+    "static/media/lifestyleimg.jpg": "/paathshala-Shiva-Raj/static/media/lifestyleimg.66520bf2b721779130e0.jpg",
+    "static/media/otherimg.jpg": "/paathshala-Shiva-Raj/static/media/otherimg.37774e5c3ba84998ae42.jpg",
+    "static/media/watch.jpg": "/paathshala-Shiva-Raj/static/media/watch.667296693911a07582e7.jpg",
+    "static/media/profile.png": "/paathshala-Shiva-Raj/static/media/profile.5faf09a7795d28bf5a2b.png",
+    "static/media/guitar.jpg": "/paathshala-Shiva-Raj/static/media/guitar.31dc17c489afae5400cf.jpg",
+    "static/media/contactimg.jpg": "/paathshala-Shiva-Raj/static/media/contactimg.444834a943986ddfecc9.jpg",
+    "static/media/entertainmentimg.jpg": "/paathshala-Shiva-Raj/static/media/entertainmentimg.91d27c3f0e1dfe3a375f.jpg",
+    "static/media/comment.png": "/paathshala-Shiva-Raj/static/media/comment.9c6bc70ced1c352fd540.png",
+    "static/media/user.png": "/paathshala-Shiva-Raj/static/media/user.724b79cd582c0a0944ee.png",
+    "static/media/like.png": "/paathshala-Shiva-Raj/static/media/like.ffb26543fec418c7e568.png",
+    "static/media/instagram.png": "/paathshala-Shiva-Raj/static/media/instagram.81d74f5b76e85ca7cd6a.png",
+    "static/media/share.png": "/paathshala-Shiva-Raj/static/media/share.c9448365acf2f8787baf.png",
+    "index.html": "/paathshala-Shiva-Raj/index.html",
+    "main.40be57e8.css.map": "/paathshala-Shiva-Raj/static/css/main.40be57e8.css.map",
+    "main.5bb8a9ee.js.map": "/paathshala-Shiva-Raj/static/js/main.5bb8a9ee.js.map",
+    "787.e7e5b0e0.chunk.js.map": "/paathshala-Shiva-Raj/static/js/787.e7e5b0e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40be57e8.css",
+    "static/js/main.5bb8a9ee.js"
+  ]
+}
